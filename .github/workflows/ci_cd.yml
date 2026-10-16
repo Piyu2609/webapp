@@ -1,9 +1,9 @@
 name: CI/CD to Azure Container Registry
 
 env:
-  AZURE_CONTAINER_REGISTRY: yourcontainerregistry.azurecr.io
-  AZURE_CONTAINER_REGISTRY_USERNAME: yourcontainerregistry
-  IMAGE_NAME: webapp
+  AZURE_CONTAINER_REGISTRY: "piyushregistry.azurecr.io"
+  AZURE_CONTAINER_REGISTRY_USERNAME: "piyushregistry"
+  CONTAINER_NAME: "webapp"
 
 on:
   push:
